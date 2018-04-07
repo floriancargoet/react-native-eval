@@ -156,7 +156,7 @@ public final class RNMEvaluator extends ReactContextBaseJavaModule {
 
         WritableArray arguments = args != null ? Arguments.fromJavaArgs(args) : Arguments.createArray();
         if (arguments.size() == 0) {
-            arguments.pushNull();
+            //arguments.pushNull();
         }
 
         WritableMap eventParams = Arguments.createMap();
